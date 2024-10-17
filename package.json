@@ -1,0 +1,75 @@
+{
+  "name": "react-scrollable-accordion",
+  "version": "0.0.0-development",
+  "description": "A scrollable list/accordion component with sticky headers",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "NODE_ENV=production webpack && tsc",
+    "commit": "npx git-cz",
+    "lint": "eslint 'src/**/*.js'",
+    "semantic-release": "semantic-release",
+    "test:ci": "jest --ci",
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrii-maglovanyi/react-scrollable-accordion.git"
+  },
+  "keywords": [
+    "accordion",
+    "component",
+    "list",
+    "menu",
+    "react",
+    "scrollbox",
+    "sticky"
+  ],
+  "author": "Andrii Maglovanyi <andrii.maglovanyi@gmail.com> (http://andrii.codes/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrii-maglovanyi/react-scrollable-accordion/issues"
+  },
+  "homepage": "https://github.com/andrii-maglovanyi/react-scrollable-accordion#readme",
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.7.7",
+    "@babel/plugin-transform-runtime": "^7.7.6",
+    "@babel/preset-env": "^7.7.7",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.1.1",
+    "cz-conventional-changelog": "^3.0.2",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "semantic-release": "^15.14.0",
+    "typescript": "^3.7.4",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

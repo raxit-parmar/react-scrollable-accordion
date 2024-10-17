@@ -1,0 +1,25 @@
+.ListItem,
+.ListHeader {
+  align-items: center;
+  border-bottom: 1px solid #e9ecef;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0.8rem 0 0 0.8rem;
+  position: relative;
+  text-align: left;
+  width: 100%;
+}
+
+.ListHeader {
+  background-color: white;
+  border: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0.6rem 0.8rem;
+  text-align: center;
+  z-index: 1;
+}
